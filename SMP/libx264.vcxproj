@@ -45,6 +45,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{20179127-853B-4FE9-B7C0-9E817E6A3A72}</ProjectGuid>
     <RootNamespace>libx264</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -162,7 +163,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(SolutionDir)obj\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
     <TargetName>libx264d</TargetName>
-    <OutDir>$(ProjectDir)..\..\..\msvc\</OutDir>
+    <OutDir>$(ProjectDir)\msvc\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">
     <OutDir>$(ProjectDir)..\..\..\msvc\</OutDir>
@@ -189,7 +190,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(SolutionDir)obj\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
     <TargetName>libx264</TargetName>
-    <OutDir>$(ProjectDir)..\..\..\msvc\</OutDir>
+    <OutDir>$(ProjectDir)\msvc\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLTO|x64'">
     <IntDir>$(SolutionDir)obj\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>

@@ -63,6 +63,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DF0E4003-C938-4CE6-A06A-F7741512B46C}</ProjectGuid>
     <RootNamespace>x264cli</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +129,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(SolutionDir)obj\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
     <TargetName>x264cli</TargetName>
-    <OutDir>..\..\..\msvc\</OutDir>
+    <OutDir>$(ProjectDir)\msvcli\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
